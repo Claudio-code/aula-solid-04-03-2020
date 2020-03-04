@@ -1,6 +1,6 @@
 using System;
 
-namespace aula_solid_04_03_2020
+namespace Entidades
 {
     public class Pessoa
     {
@@ -14,7 +14,7 @@ namespace aula_solid_04_03_2020
                 this.nome = nome;
                 this.documento = documento;
                 this.email = email;
-                Console.WriteLine(this.enviarEmail());
+                Console.WriteLine(this.EnviarEmail());
             } 
             catch (System.Exception)
             {
@@ -22,9 +22,8 @@ namespace aula_solid_04_03_2020
             }
         }
 
-        private string enviarEmail()
+        private string EnviarEmail()
         {
-
             return "Enviando email!!!";
         }
     }

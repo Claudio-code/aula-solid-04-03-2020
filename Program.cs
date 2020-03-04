@@ -1,5 +1,5 @@
 ﻿using System;
-
+using Entidades;
 namespace aula_solid_04_03_2020
 {
     class Program
@@ -7,7 +7,6 @@ namespace aula_solid_04_03_2020
         static void Main(string[] args)
         {
             var kraudio = new Pessoa("kraudio", "cpf", "teste@gmail.com");
-            
         }
     }
 }
