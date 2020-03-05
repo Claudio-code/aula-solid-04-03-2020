@@ -2,11 +2,11 @@ using System;
 
 namespace aula_solid_04_03_2020.Entidades
 {
-    internal class Pessoa
+    public class Pessoa
     {
-        private string nome {get; set;}
-        private string documento {get; set;}
-        private string email {get; set;}
+        public string nome {get; private set;}
+        public string documento {get; private set;}
+        public string email {get; private set;}
 
         public Pessoa(string nome, string documento, string email) {
             try
